@@ -28,6 +28,7 @@ h5,
 h6 {
   line-height: 1.5;
   font-family: "Pretendard-Regular", sans-serif !important;
+  font-weight: normal;
 }
 
 /* 폰트스타일 초기화 */
