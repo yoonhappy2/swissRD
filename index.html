@@ -89,12 +89,12 @@
                         </form>
                     </div>
                     <div class="right">
-                        <div>
-                            <p>스위스 관광지 1위 현황</p>
-                            <p><span>그린델발트</span>
-                                (3,225표)</p>
+                        <div class="rightBox">
+                            <p class="rightBoxTitle">스위스 관광지 1위 현황</p>
+                            <p class="rightBoxContents"><em>그린델발트</em>
+                                <span>(3,225표)</span></p>
                         </div>
-                        <p>*퀴즈 참여 현황은 매주 업데이트 됩니다</p>
+                        <p class="update">*퀴즈 참여 현황은 매주 업데이트 됩니다</p>
                     </div>
                 </div>
         </div>
@@ -104,30 +104,45 @@
       <!-- tourism -->
       <section class="tourism_bg">
         <div class="tourism">
-            <p>
+            <p class="title">
                 <h2>Swiss tourism</h2>
-                스위스의 아름다운 풍경과 건축물을 볼 수 있는 관광지
+                <span class="subtitle">스위스의 아름다운 풍경과 건축물을 볼 수 있는 관광지</span>
             </p>
             <div class="contents_tr">
-                <ul>
+                <ul class="contents">
                     <li>
-                        <img src="" alt="">
-                        <p>밀라노</p>
+                        <img src="./img/tourismImg01.PNG" alt="">
+                        <h3>마테호른</h3>
                         <p>북부 롬바르디아주의 주도, ‘패션의 중심지’</p>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <p>밀라노</p>
+                        <img src="./img/tourismImg02.PNG" alt="">
+                        <h3>융프라우</h3>
                         <p>북부 롬바르디아주의 주도, ‘패션의 중심지’</p>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <p>밀라노</p>
+                        <img src="./img/tourismImg03.PNG" alt="">
+                        <h3>인터라켄</h3>
                         <p>북부 롬바르디아주의 주도, ‘패션의 중심지’</p>
                     </li>
                     <li>
-                        <img src="" alt="">
-                        <p>밀라노</p>
+                        <img src="./img/tourismImg04.PNG" alt="">
+                        <h3>루체른</h3>
+                        <p>북부 롬바르디아주의 주도, ‘패션의 중심지’</p>
+                    </li>
+                    <li>
+                        <img src="./img/tourismImg05.PNG" alt="">
+                        <h3>제네바 호수</h3>
+                        <p>북부 롬바르디아주의 주도, ‘패션의 중심지’</p>
+                    </li>
+                    <li>
+                        <img src="./img/tourismImg06.PNG" alt="">
+                        <h3>몽트뢰</h3>
+                        <p>북부 롬바르디아주의 주도, ‘패션의 중심지’</p>
+                    </li>
+                    <li>
+                        <img src="./img/tourismImg07.PNG" alt="">
+                        <h3>생 모리츠</h3>
                         <p>북부 롬바르디아주의 주도, ‘패션의 중심지’</p>
                     </li>
                 </ul>
@@ -139,10 +154,10 @@
       <!-- youtube -->
       <section class="youtube_bg">
         <div class="youtube">
-            <p>
-                <h2>Italy Free Travel Story</h2>
-                평화로운 이탈리아 자유여행 이야기
-            </p>
+            <div>
+                <h2>Swiss Free Travel Story!</h2>
+                <p>평화로운 스위스 자유여행 이야기</p>
+            </div>
             <div class="video-container" id="player"></div>
         </div>
       </section>
@@ -151,19 +166,19 @@
       <!-- package -->
       <section class="package_bg">
         <div class="package">
-            <p>
+            <div>
                 <h2>Swiss Free Travel Package !
                 </h2>
-                자유여행 패키지로 마음껏 즐기세요!
-            </p>
+                <p>자유여행 패키지로 마음껏 즐기세요!</p>
+            </div>
 
             <div class="contents">
                 <ul>
                     <li>
-                        <img src="" alt="">
+                        <img src="./img/route_bg.png" alt="">
                         <div class="info">
                             <div class="left">
-                            <p>이태리일주 (+ 남부) 8일 #공항픽업 #투어 #일급호텔</p>
+                            <h3>이태리일주 (+ 남부) 8일 #공항픽업 #투어 #일급호텔</h3>
                             <p>출발기간 2023.07.20~ 2023.12.31</p>
                         </div>
                         <div class="right">
@@ -172,7 +187,43 @@
                             </p>
                             <a href="#">
                                 <span>출발일 보기</span>
-                                <img src="" alt="">
+                                <img src="./img/arrow_forward_ios.png" alt="">
+                            </a>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/route_bg.png" alt="">
+                        <div class="info">
+                            <div class="left">
+                            <h3>이태리일주 (+ 남부) 8일 #공항픽업 #투어 #일급호텔</h3>
+                            <p>출발기간 2023.07.20~ 2023.12.31</p>
+                        </div>
+                        <div class="right">
+                            <p>
+                                <span>2,430,000 </span>원~
+                            </p>
+                            <a href="#">
+                                <span>출발일 보기</span>
+                                <img src="./img/arrow_forward_ios.png" alt="">
+                            </a>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/route_bg.png" alt="">
+                        <div class="info">
+                            <div class="left">
+                            <h3>이태리일주 (+ 남부) 8일 #공항픽업 #투어 #일급호텔</h3>
+                            <p>출발기간 2023.07.20~ 2023.12.31</p>
+                        </div>
+                        <div class="right">
+                            <p>
+                                <span>2,430,000 </span>원~
+                            </p>
+                            <a href="#">
+                                <span>출발일 보기</span>
+                                <img src="./img/arrow_forward_ios.png" alt="">
                             </a>
                         </div>
                         </div>
@@ -185,5 +236,12 @@
     </div>
 
     <script src="./js/index.js"></script>
+    <script>
+  document.getElementById("answer_btn").addEventListener("click", function(event) {
+    event.preventDefault(); // 기본 동작 중지
+
+    document.querySelector(".right").style.display = "block";
+        });
+      </script>
   </body>
 </html>
