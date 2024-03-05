@@ -1,6 +1,7 @@
 /* ==================== root ==================== */
 :root {
-  --main-color: #007bff;
+  --main-color: #69eaff;
+  --main-color2: #7bea9e;
   --main-gl-color: rgba(0, 119, 255, 0.4);
   --potin-color: #ff8a00;
   --primary-font-color: #1a1a1a;
@@ -8,7 +9,6 @@
   --light-font-color: #c4c4c4;
   --white: #fff;
 }
-
 /* =================== warp =================== */
 section > div {
   width: 1200px;
@@ -75,16 +75,101 @@ section > div {
   line-height: 100px;
   letter-spacing: -0.02em;
   font-weight: 700;
+  /* text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5); */
 
-  background-image: linear-gradient(to right, #aed9e0, #b8e8c7);
-  -webkit-background-clip: text;
+  /* background-image: linear-gradient(to right, #aed9e0, #b8e8c7); */
+  background-image: linear-gradient(to right, #69eaff, #7bea9e);
   background-clip: text;
   color: transparent;
-  /* text-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5); */
 }
 
 /* =================== route =================== */
 /* =================== quiz =================== */
+.quiz_bg {
+  background: url(../img/quiz.png) no-repeat fixed center;
+  background-size: cover;
+}
+
+.contents_qz {
+  display: flex;
+}
+
+.quiz_bg > .quiz > h2 {
+  font-size: 3rem;
+}
+
+.quiz {
+  color: var(--white);
+}
+
+.quiz_subtitle {
+  font-size: 1.2rem;
+  letter-spacing: -0.02em;
+  color: #fff7ae;
+  margin: -20px 0 50px 0;
+}
+
+.contents_qz {
+  display: flex;
+  width: 1200px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contents_qz > .left > h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+#quiz_frm > fieldset > ul > li {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+#quiz_frm > fieldset > ul > li:last-child {
+  margin-bottom: 40px;
+}
+
+#quiz_frm fieldset ul li label input {
+  appearance: none;
+}
+
+.quiz_bg .quiz .contents_qz .left #quiz_frm fieldset ul li label span {
+  background: url(../img/un_check.png) no-repeat;
+  background-position: 0%;
+  padding-left: 25px;
+  font-size: 1.44rem;
+  letter-spacing: -0.02em;
+}
+.quiz_bg
+  .quiz
+  .contents_qz
+  .left
+  #quiz_frm
+  fieldset
+  ul
+  li
+  label
+  input:checked
+  + span {
+  background: url(../img/check.png) no-repeat;
+  background-position: 0%;
+}
+
+.contents_qz .left #quiz_frm fieldset #answer_btn {
+  padding: 20px 200px;
+  height: 70px;
+  border-radius: 50px;
+  background: var(--main-color);
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+
+  line-height: normal;
+}
 /* =================== tourism =================== */
 /* =================== youtube =================== */
 .video-container {
